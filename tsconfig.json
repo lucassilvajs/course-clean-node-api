@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // Onde a pasta do arquivo compilado será salva
+    "module": "commonjs", // Modo do require/export -> mas no typescript usaremos import/export
+    "target": "es2019", // Versão do EcmaScript que será gerado o js final
+    "esModuleInterop": true, // Para converter os pacotes que ainda usam o commonjs
+    "allowJs": true // Permitir arquivos de configuração também em js
+  }
+}
