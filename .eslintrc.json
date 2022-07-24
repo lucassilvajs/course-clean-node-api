@@ -1,0 +1,6 @@
+ {
+  "extends": "standard-with-typescript", // para extender das configurações do pacote do eslint
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
